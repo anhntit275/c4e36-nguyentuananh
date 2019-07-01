@@ -18,26 +18,26 @@
 // Exercise 3: Finish CRUD exercise in class, simulate a clothes shop
 
 // Answer:
-// const clothes = ["T-Shirt", "Sweater"];
-// let answer = prompt("Welcome to our shop, what do you want (C, R, U, D)?").toUpperCase();
-// if (answer === "R"){
-//     console.log(clothes);
-//  } else if (answer === "C"){
-//         let newitem = prompt("Enter new item:");
-//         clothes.push(newitem);
-//         console.log(clothes);
-//     } if (answer === "U"){
-//         let clothes1 = ["T-Shirt", "Sweater", "Jeans"];
-//         let updateindex = prompt("Update position?");
-//         let newitemindex = prompt("New item?");
-//         clothes1[updateindex - 1] = newitemindex;
-//         console.log(clothes1);
-//     } else if (answer === "D"){
-//         let clothes2 = ["T-Shirt", "Skirt", "Jeans"];
-//         let deleteindex = prompt("Delete position?");
-//         clothes2.splice(deleteindex-1, 1);
-//         console.log(clothes2);
-//     }
+const clothes = ["T-Shirt", "Sweater"];
+let answer = prompt("Welcome to our shop, what do you want (C, R, U, D)?").toUpperCase();
+if (answer === "R"){
+    console.log(clothes);
+ } else if (answer === "C"){
+        let newitem = prompt("Enter new item:");
+        clothes.push(newitem);
+        console.log(clothes);
+    } if (answer === "U"){
+        let clothes1 = ["T-Shirt", "Sweater", "Jeans"];
+        let updateindex = prompt("Update position?");
+        let newitemindex = prompt("New item?");
+        clothes1[updateindex - 1] = newitemindex;
+        console.log(clothes1);
+    } else if (answer === "D"){
+        let clothes2 = ["T-Shirt", "Skirt", "Jeans"];
+        let deleteindex = prompt("Delete position?");
+        clothes2.splice(deleteindex-1, 1);
+        console.log(clothes2);
+    }
 
 // Exercise 4:
 
